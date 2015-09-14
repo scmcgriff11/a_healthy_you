@@ -1,0 +1,2 @@
+module PreparationTipsHelper
+end
