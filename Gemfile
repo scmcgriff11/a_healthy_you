@@ -37,6 +37,12 @@ gem 'starter_generators'
 gem 'awesome_print'
 gem 'annotate', '~> 2.6.6'
 
+group :development do
+ gem 'quiet_assets'
+ gem 'populator'
+ gem 'faker'
+end
+
 group :development, :test do
  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
    gem 'byebug'
